@@ -1,0 +1,27 @@
+#include <stdio.h>
+#include <cs50.h>
+
+int main(void)
+{
+    int n = get_int("Number: ");
+    int a0 = n % 10;
+    int a1 = n % 100;
+    int a2 = n % 1000;
+    int a3 = n % 10000;
+    int a4 = n % 100000;
+    int a5 = n % 1000000;
+    int a6 = n % 10000000;
+    int a7 = n % 100000000;
+    int a8 = n % 1000000000;
+    int a9 = n % 10000000000;
+    int a10 = n % 100000000000;
+    int a11 = n % 1000000000000;
+    int a12 = n % 10000000000000;
+    int a13 = n % 100000000000000;
+    int a14 = n % 1000000000000000;
+    int a15 = n % 10000000000000000;
+    int a16 = n % 100000000000000000;
+   
+    printf("%d, %d, %d, %d, %d, %d, %d, %d, %d, %d, %d, %d, %d, %d, %d, %d, \n",a0,a1,a2,a3,a4,a5,a6,a7,a8,a9,a10,a11,a12,a13,a14,a15,a16);
+    
+}
